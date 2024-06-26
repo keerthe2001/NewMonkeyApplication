@@ -1,7 +1,6 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 export default function Header() {
-    const [text, settext] = useState("initial")
     return (
         <div>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
